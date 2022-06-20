@@ -1,0 +1,125 @@
+body,
+header,
+div,
+aside,
+a,
+img,
+p,
+h1,
+h2,
+h3,
+section,
+ul,
+ol,
+li {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Ubuntu', sans-serif;
+}
+
+.container {
+  width: 95%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-around;
+}
+
+.asideLeft {
+  width: 20%;
+  border-right: solid 0.5px #eff3f4;
+}
+.asideCenter {
+  width: 50%;
+
+}
+.asideRight {
+  width: 30%;
+
+}
+
+.boxLeft > header {
+  padding-left: 30px;
+}
+
+.boxLeft > header > img {
+  width: 30px;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+.barraNav li {
+  list-style: none;
+  padding: 2px 15px;
+}
+.barraNav li a {
+  display: flex;
+  padding: 10px 0 10px 15px;
+  gap: 20px;
+  text-decoration: none;
+  border-radius: 45px;
+  transition: 0.5s;
+}
+.barraNav li a:hover {
+  background-color: rgb(163, 163, 163);
+}
+
+.barraNav li a h2 {
+  font-weight: 300;
+  font-size: 20px;
+  color: black;
+}
+
+.barraNav > li > a > img {
+  width: 25px;
+}
+
+.barraNav > li > a > svg {
+  width: 25px;
+}
+
+.btnTweetar {
+  padding: 15px 90px;
+  margin-top: 10px;
+  border-radius: 30px;
+  background-color: #1d9bf0;
+  color: white;
+  font-size: 18px;
+  font-weight: 600;
+  border: none;
+  transition: 0.5s;
+  cursor: pointer;
+}
+
+.btnTweetar:hover{
+  background-color: #157bbe;}
+
+
+
+.accountCardMenu{
+  display: flex;
+  justify-content: space-around;
+  margin-top: 50px;
+}
+.accountCardMenu > img{
+width: 40px;
+border-radius: 50%;
+transform: translateX(15px);
+}
+
+#nameCardMenu{
+  font-weight: 600;
+}
+#userCardMenu{
+  color: #93979b;
+}
+
+.accountCardMenu > span {
+  font-weight: 600;
+}
+
+#moreCardUser{
+  display: flex;
+  align-items: center;
+  transform: translateY(-3px);
+}
